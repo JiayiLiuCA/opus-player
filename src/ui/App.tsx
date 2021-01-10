@@ -6,11 +6,7 @@ import PlayingBar from './components/PlayingBar/PlayingBar';
 
 import styles from './App.css';
 
-interface Props {
-  children: any;
-}
-
-const App: React.FC<Props> = ({ children }) => {
+const App: React.FC = ({ children }) => {
   return (
     <div className={styles.appContainer}>
       <TopBar />
