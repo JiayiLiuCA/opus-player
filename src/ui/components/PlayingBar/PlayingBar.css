@@ -1,0 +1,6 @@
+.playingBar {
+  grid-area: playingbar;
+
+  background-color: #282828;
+  text-align: center;
+}

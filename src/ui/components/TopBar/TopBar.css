@@ -1,0 +1,7 @@
+.topBar {
+  grid-area: topbar;
+
+  text-align: center;
+  background-color: #070707;
+  -webkit-app-region: drag;
+}

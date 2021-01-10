@@ -1,0 +1,16 @@
+.appContainer {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 50px 1fr 100px;
+  grid-template-columns: 232px 1fr;
+  grid-template-areas:
+    'topbar topbar'
+    'navbar mainview'
+    'playingbar playingbar';
+}
+
+.mainViewContainer {
+  grid-area: mainview;
+  background-color: #121212;
+}
