@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import AppRouter from './ui/router/AppRouter';
+import Root from './ui/Root';
 import './index.global.css';
 
-render(<AppRouter />, document.getElementById('root'));
+render(<Root />, document.getElementById('root'));
