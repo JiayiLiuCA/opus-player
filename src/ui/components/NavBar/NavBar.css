@@ -1,6 +1,15 @@
-.navbar {
+.navBar {
   grid-area: navbar;
   display: flex;
   flex-direction: column;
   background-color: #000000;
+}
+
+.navList {
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.navList li {
+  padding-top: 10px;
 }

@@ -5,7 +5,7 @@
   grid-template-rows: 50px 1fr 100px;
   grid-template-columns: 232px 1fr;
   grid-template-areas:
-    'topbar topbar'
+    'navbar topbar'
     'navbar mainview'
     'playingbar playingbar';
 }

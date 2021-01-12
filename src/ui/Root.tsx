@@ -11,6 +11,7 @@ const Root: React.FC = () => (
       <Switch>
         <Route path="/albums" exact component={Albums} />
         <Route path="/playlists" exact component={Playlists} />
+        {/* Default Route */}
         <Route path="/" component={Albums} />
       </Switch>
     </App>

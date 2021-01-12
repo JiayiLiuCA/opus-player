@@ -4,13 +4,18 @@ import styles from './NavBar.css';
 
 const NavBar = () => {
   return (
-    <div className={styles.navbar}>
-      <Link to="/albums">
-        <p>Albums</p>
-      </Link>
-      <Link to="/playlists">
-        <p>Playlists</p>
-      </Link>
+    <div className={styles.navBar}>
+      <nav>
+        {/* logo to be added */}
+        <ul className={styles.navList}>
+          <li>
+            <Link to="/albums">Albums</Link>
+          </li>
+          <li>
+            <Link to="/playlists">Playlists</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };

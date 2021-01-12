@@ -71,6 +71,7 @@ const createWindow = async () => {
     show: false,
     width: 1024,
     height: 728,
+    frame: false,
     icon: getAssetPath('icon.png'),
     webPreferences: {
       nodeIntegration: true,
@@ -94,6 +95,7 @@ const createWindow = async () => {
   });
 
   mainWindow.on('closed', () => {
+    // Dereference the window object
     mainWindow = null;
   });
 
